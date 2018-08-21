@@ -29,7 +29,7 @@ public class Hook extends BaseUtil{
 
 
         //Chrome driver
-        System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Coocumber/");
+        System.setProperty("webdriver.chrome.driver", "/home/jenkins/.config");
         base.Driver = new ChromeDriver();
     }
 
